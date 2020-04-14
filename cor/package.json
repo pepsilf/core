@@ -1,0 +1,24 @@
+{
+  "name": "pepsilf",
+  "version": "1.0.1",
+  "description": "pepsilf",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.config.js",
+    "send": "node ./bin/shell.js"
+  },
+  "author": "pepsilf",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^3.7.1"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}
